@@ -16,7 +16,7 @@
 using namespace std;
 
 
-class MySerial{
+class LxSerial{
 public://public functions
     void begin(char devs[],int speed_num=115200)
     {

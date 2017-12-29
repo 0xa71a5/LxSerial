@@ -1,4 +1,4 @@
-test: test.cpp MySerial.hpp
+test: test.cpp LxSerial.hpp
 	g++ test.cpp -o test -w -I.
 
 clean:

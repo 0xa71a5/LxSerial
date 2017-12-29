@@ -1,13 +1,13 @@
 #include <unistd.h>
 #include <iostream>
 #include <time.h>
-#include "MySerial.hpp"
+#include "LxSerial.hpp"
 using namespace std;
  
 
 int main()
 {
-    MySerial Serial;
+    LxSerial Serial;
     Serial.begin("/dev/ttyUSB0",9600);
     printf("Serial test begin!\n");
     time_t timep;
